@@ -130,8 +130,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ArrayFile.cpp" />
-    <ClCompile Include="library\src\Utils\ArrayPrinter.cpp" />
-    <ClCompile Include="library\src\Utils\QuickSort.cpp" />
+    <ClCompile Include="library\include\Utils\ArrayPrinter.hpp" />
+    <ClCompile Include="library\include\Utils\QuickSort.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="library\include\ArrayTransformer\ArrayTransformer.hpp" />

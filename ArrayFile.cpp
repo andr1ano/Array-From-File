@@ -1,6 +1,6 @@
-#include "../../library/include/ArrayTransformer/ArrayTransformer.hpp"
-#include "../../library/include/DataProcessor/DataProcessor.hpp"
-#include "../../library/src/Utils/ArrayPrinter.cpp"
+#include "library/include/ArrayTransformer/ArrayTransformer.hpp"
+#include "library/include/DataProcessor/DataProcessor.hpp"
+#include "library/include/Utils/ArrayPrinter.hpp"
 
 int main(int argc, char* argv[]) {
 
@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
         std::cerr << "Usage: " << argv[0] << " <filename>" << std::endl;
         return 1;
     }
-
+    std::cout << "test";
     std::string filename = argv[1];
 
     // Create instance of class to read numbers 

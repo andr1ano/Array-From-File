@@ -1,5 +1,5 @@
-#include "../../library/src/Utils/QuickSort.cpp"
-
+#include "../Utils/QuickSort.hpp"
+ 
 #include <unordered_set>
 
 template<typename OuterContainer, typename InnerContainer>

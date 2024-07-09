@@ -18,11 +18,11 @@
     <ClCompile Include="ArrayFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="library\src\Utils\QuickSort.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="library\include\Utils\ArrayPrinter.hpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="library\src\Utils\ArrayPrinter.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="library\include\Utils\QuickSort.hpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
